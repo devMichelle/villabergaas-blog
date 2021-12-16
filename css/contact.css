@@ -1,0 +1,43 @@
+.contact-heading {
+  margin-bottom: 40px;
+}
+
+.form-wrapper {
+  margin: 40px auto 100px;
+  max-width: 400px;
+  padding: 0px 10px;
+}
+
+.successfull {
+  background-color: var(--light-grey);
+  border: 2px solid var(--black);
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 0px;
+  display: none;
+}
+
+.form-error {
+  background-color: rgba(180, 41, 41, 0.5);
+  border: 2px solid rgba(180, 41, 41, 1);
+  border-radius: 4px;
+  padding: 3px;
+  margin: 5px 0px;
+  display: none;
+}
+
+.form-structure {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-top: 3px;
+}
+
+textarea {
+  padding: 5px 0px 30px;
+  margin: 3px 0px 0px;
+}

@@ -1,0 +1,31 @@
+.aboutContainer {
+  margin-top: 80px;
+}
+
+.about-header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 200px;
+}
+
+.about-title {
+  font-size: 29px;
+  max-width: 200px;
+  height: 120px;
+  background-color: var(--white);
+  position: relative;
+  right: 60px;
+  top: 150px;
+  padding: 10px 0px 0px 20px;
+}
+
+.about-text {
+  margin: 50px auto;
+  max-width: 420px;
+}

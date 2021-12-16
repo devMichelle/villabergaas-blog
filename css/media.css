@@ -1,0 +1,162 @@
+@media (min-width: 600px) {
+  /*------------------------
+              Header 
+    ------------------------*/
+
+  .hamburger {
+    display: none;
+  }
+
+  .mainMenu {
+    max-width: 1000px;
+    margin: 0px auto;
+  }
+
+  .menu {
+    position: relative;
+    transform: translateY(0%);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0rem;
+    padding-left: 30px;
+  }
+
+  .logo {
+    position: relative;
+    top: 30px;
+    z-index: 1000;
+    height: 8vh;
+  }
+
+  main {
+    width: 800px;
+    margin: 50px auto 0px;
+  }
+
+  /*------------------------
+              Footer
+    ------------------------*/
+
+  .footer-details {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding-left: 20px;
+  }
+
+  .footer-contactinfo {
+    margin-bottom: 0px;
+    padding-right: 10px;
+  }
+
+  .footer-logo {
+    padding-left: 50px;
+  }
+
+  /*------------------------
+          Home page
+    ------------------------*/
+
+  .home-header {
+    flex-direction: row;
+  }
+
+  .blogpost-title {
+    margin-right: 15px;
+  }
+
+  .next,
+  .prev {
+    padding: 0px 50px;
+  }
+
+  /*------------------------
+          Contact page
+    ------------------------*/
+
+  .back-link {
+    margin-top: 130px;
+  }
+
+  /*------------------------
+          About page
+    ------------------------*/
+
+  .about-title {
+    padding-top: 40px;
+  }
+
+  /*------------------------
+          Blogpost page
+    ------------------------*/
+
+  .blogpost-title {
+    padding: 40px 0px 0px 20px;
+    height: 90px;
+  }
+
+  .blogpost-header {
+    margin-bottom: 50px;
+  }
+
+  /*------------------------
+          Archives page
+    ------------------------*/
+
+  .archiveContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 50px auto;
+    max-width: 500px;
+  }
+
+  .blogpost-header {
+    padding-bottom: 20px;
+    top: 90px;
+  }
+}
+
+@media (min-width: 800px) {
+  .logo {
+    height: 8vh;
+  }
+
+  /*------------------------
+          Archives page
+    ------------------------*/
+
+  .category {
+    position: relative;
+    top: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  .blogpost-conainer {
+    margin-bottom: 10px;
+  }
+
+  .archiveContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 700px;
+  }
+
+  .date {
+    top: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    height: 9vh;
+  }
+
+  .mainMenu {
+    max-width: 1600px;
+    margin: 0px auto;
+  }
+}

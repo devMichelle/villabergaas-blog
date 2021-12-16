@@ -1,0 +1,12 @@
+:root {
+  /* colors */
+  --light-grey: rgba(224, 224, 224, 1);
+  --black: rgba(12, 12, 12, 1);
+  --white: rgba(255, 255, 255, 1);
+  --beige: rgba(230, 182, 140, 0.9);
+  --blue: rgba(41, 50, 64, 0.25);
+
+  /* font-sizes */
+  --big: 600;
+  --text: 15px;
+}
