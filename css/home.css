@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+.menu-section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 99;
+  background-color: var(--white);
+}
+
+.header-img {
+  display: block;
+  background-image: url(/images/fasade-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  object-fit: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
 /* ------------------------------
     Header / Welcome section
 ------------------------------ */

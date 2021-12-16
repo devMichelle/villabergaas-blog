@@ -18,7 +18,7 @@ footer {
 }
 
 main {
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 0px 20px;
 }
 
@@ -28,6 +28,36 @@ header {
   width: 100%;
   z-index: 99;
 }
+
+/* .menu-section {
+  position: fixed;
+  top: 0rem;
+  width: 100%;
+  z-index: 99;
+  max-height: 20vh;
+  background-color: var(--white);
+  margin: 0px;
+} */
+
+/* .menu-section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 99;
+  background-color: var(--white);
+}
+
+.header-img {
+  display: block;
+  background-image: url(/images/fasade-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  object-fit: cover;
+  background-position-x: center;
+  background-position-y: center;
+} */
 
 p {
   font-size: var(--text);
@@ -51,12 +81,13 @@ hr {
 
 .mainMenu {
   padding-bottom: 10px;
+  position: relative;
 }
 
 .hamburger {
-  position: fixed;
+  position: absolute;
   z-index: 100;
-  top: 2rem;
+  top: 1.3rem;
   right: 1rem;
   margin: 4px;
   border: none;
