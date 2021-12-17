@@ -99,6 +99,10 @@ hr {
   display: none;
 }
 
+#closeMenuIcon {
+  display: none;
+}
+
 .menu {
   position: fixed;
   transform: translateY(100%);
